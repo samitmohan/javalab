@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class calc {
     public static void main(String[] args) {
-        int n1 = 0;
-        int n2 = 0;
+        int n1;
+        int n2;
         int option;
         int ex;
         Scanner sc = new Scanner(System.in);
         do {
-            Scanner sc1 = new Scanner(System.in);
             System.out.println("Choice : ");
             System.out.println("1. Add, 2. Sub, 3. Exit");
             option = sc.nextInt();
